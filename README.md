@@ -1,10 +1,24 @@
-# MB Audio | Premium Headphones Landing Page
+# MB Audio | Landing Page - Fones de Ouvido Premium
 
-## Project Info
+Landing page desenvolvida para divulgar e vender fones de ouvido premium, com foco em qualidade sonora e design imersivo.  
+O projeto destaca as funcionalidades do produto, como variedade de cores, áudio de alta fidelidade e conforto prolongado.
 
-Landing page desenvolvida para divulgar e vender fones de ouvido premium com foco em qualidade sonora e design imersivo. O projeto destaca as funcionalidades do produto, como variedade de cores, áudio de alta fidelidade e conforto prolongado.
+🔗 **Acesse a versão publicada:**  
+👉 [audioimersao.netlify.app](https://audioimersao.netlify.app/)
 
-## Como editar este código
+---
+
+## 🛡️ Repositório como Portfólio (Código Aberto com Segurança)
+
+Este repositório está **público apenas para fins de portfólio e inspiração**.  
+O código pode ser visualizado, mas **não deve ser copiado ou reutilizado comercialmente sem autorização prévia**.  
+Todo conteúdo, design e estrutura são de autoria de **Meirian Barbosa - Web Designer**.
+
+📫 **Contato profissional:** meirian.codes@gmail.com
+
+---
+
+## 🚀 Como editar este código
 
 Você pode editar este projeto de três formas principais:
 
@@ -12,7 +26,7 @@ Você pode editar este projeto de três formas principais:
 
 Se preferir trabalhar localmente, siga os passos abaixo:
 
-```sh
+```bash
 # Passo 1: Clone este repositório
 git clone <YOUR_GIT_URL>
 
@@ -24,3 +38,4 @@ npm install
 
 # Passo 4: Inicie o servidor de desenvolvimento
 npm run dev
+
