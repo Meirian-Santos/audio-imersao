@@ -12,29 +12,31 @@ const Hero = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold mb-6 leading-tight">
-              <span className="text-gradient-primary">Reinventando</span>
+              <span className="text-foreground">Ouça cada</span>
               <br />
-              <span className="text-foreground">a Experiência</span>
+              <span className="text-gradient-primary">detalhe.</span>
               <br />
-              <span className="text-gradient-primary">Sonora</span>
+              <span className="text-foreground">Sinta a</span>
+              <br />
+              <span className="text-gradient-primary">diferença.</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 font-inter font-light max-w-2xl mx-auto lg:mx-0">
-              Tecnologia de ponta encontra design excepcional. Descubra uma nova dimensão do som premium.
+              Fidelidade sonora extrema que transporta você para dentro da música. Cada nota ganha vida.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a 
-                href="#explorar" 
+                href="#qualidade" 
                 className="btn-premium text-lg inline-flex items-center justify-center animate-glow"
               >
-                Explorar Produto
+                Explorar
               </a>
               <a 
-                href="#especificacoes" 
+                href="#cores" 
                 className="btn-outline-premium text-lg inline-flex items-center justify-center"
               >
-                Ver Especificações
+                Ver Cores
               </a>
             </div>
           </div>

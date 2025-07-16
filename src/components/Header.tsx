@@ -22,22 +22,28 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a 
-              href="#especificacoes" 
-              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
-            >
-              Especificações
-            </a>
-            <a 
               href="#design" 
               className="text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
             >
               Design
             </a>
             <a 
+              href="#especificacoes" 
+              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
+            >
+              Especificações
+            </a>
+            <a 
+              href="#cores" 
+              className="text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
+            >
+              Cores
+            </a>
+            <a 
               href="#comprar" 
               className="btn-premium text-sm"
             >
-              Comprar Agora
+              Comprar
             </a>
           </nav>
 
@@ -57,13 +63,6 @@ const Header = () => {
           <div className="md:hidden bg-background/95 backdrop-blur-md border-t border-border/50">
             <nav className="px-2 pt-2 pb-3 space-y-1">
               <a 
-                href="#especificacoes" 
-                className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Especificações
-              </a>
-              <a 
                 href="#design" 
                 className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
                 onClick={() => setIsMenuOpen(false)}
@@ -71,11 +70,25 @@ const Header = () => {
                 Design
               </a>
               <a 
+                href="#especificacoes" 
+                className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Especificações
+              </a>
+              <a 
+                href="#cores" 
+                className="block px-3 py-2 text-muted-foreground hover:text-primary transition-colors duration-300 font-inter font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Cores
+              </a>
+              <a 
                 href="#comprar" 
                 className="block px-3 py-2 text-primary hover:text-accent transition-colors duration-300 font-inter font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Comprar Agora
+                Comprar
               </a>
             </nav>
           </div>

@@ -1,73 +1,69 @@
-import sideImage from '@/assets/headphones-side.jpg';
+import { Headphones, Zap, Wifi, Volume2 } from 'lucide-react';
 
 const TechSpecs = () => {
   const specs = [
-    { label: "Resposta de Frequência", value: "20Hz - 20kHz" },
-    { label: "Impedância", value: "32 Ohms" },
-    { label: "Sensibilidade", value: "105 dB/mW" },
-    { label: "Drivers", value: "40mm Neodímio" },
-    { label: "Cancelamento de Ruído", value: "ANC Adaptativo" },
-    { label: "Conectividade", value: "Bluetooth 5.2" },
-    { label: "Codecs Suportados", value: "SBC, AAC, aptX HD" },
-    { label: "Bateria", value: "30h reprodução" },
-    { label: "Carregamento", value: "USB-C rápido" },
-    { label: "Peso", value: "285g" }
+    {
+      icon: Headphones,
+      title: "Cancelamento de Ruído",
+      value: "-35dB",
+      description: "Tecnologia ANC adaptativa com redução ativa de ruído até -35dB para imersão total"
+    },
+    {
+      icon: Wifi,
+      title: "Bluetooth 5.2",
+      value: "aptX HD",
+      description: "Conectividade avançada com codec aptX HD para transmissão sem perdas"
+    },
+    {
+      icon: Zap,
+      title: "Bateria",
+      value: "36h",
+      description: "Até 36 horas de reprodução com carregamento rápido em 15 minutos"
+    },
+    {
+      icon: Volume2,
+      title: "Drivers",
+      value: "40mm",
+      description: "Drivers de neodímio de alta qualidade com resposta de 20Hz a 20kHz"
+    }
   ];
 
   return (
-    <section id="especificacoes" className="py-20 bg-card/30">
+    <section id="especificacoes" className="py-24 bg-gradient-to-br from-card/20 to-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Product Image */}
-          <div className="relative animate-scale-in">
-            <div className="relative z-10">
-              <img 
-                src={sideImage} 
-                alt="MB Audio Headphones - Vista Lateral" 
-                className="w-full max-w-md mx-auto object-contain drop-shadow-2xl"
-              />
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-playfair font-bold mb-4 text-gradient-primary">
+            Especificações Técnicas
+          </h2>
+          <p className="text-xl text-muted-foreground font-inter max-w-2xl mx-auto">
+            Tecnologia de ponta em cada componente para uma experiência sonora incomparável.
+          </p>
+        </div>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {specs.map((spec, index) => (
+            <div 
+              key={index}
+              className="feature-card text-center group animate-fade-in"
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 group-hover:bg-primary/20 transition-colors duration-300">
+                <spec.icon className="w-8 h-8 text-primary" />
+              </div>
+              
+              <div className="text-3xl font-bold text-primary mb-2">
+                {spec.value}
+              </div>
+              
+              <h3 className="text-xl font-playfair font-semibold mb-4 text-foreground">
+                {spec.title}
+              </h3>
+              
+              <p className="text-sm text-muted-foreground font-inter leading-relaxed">
+                {spec.description}
+              </p>
             </div>
-            
-            {/* Decorative Elements */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primary/5 rounded-full blur-3xl"></div>
-            <div className="absolute top-1/4 left-1/4 w-24 h-24 bg-accent/10 rounded-full blur-xl"></div>
-          </div>
-          
-          {/* Specifications */}
-          <div className="animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-6 text-gradient-primary">
-              Especificações Técnicas
-            </h2>
-            
-            <p className="text-lg text-muted-foreground mb-8 font-inter">
-              Engenharia de precisão para entusiastas do áudio que exigem o máximo desempenho.
-            </p>
-            
-            <div className="grid sm:grid-cols-2 gap-4">
-              {specs.map((spec, index) => (
-                <div 
-                  key={index}
-                  className="flex justify-between items-center p-4 bg-secondary/20 rounded-lg border border-border/30 hover:bg-secondary/30 transition-colors duration-300"
-                >
-                  <span className="text-muted-foreground font-inter font-medium">
-                    {spec.label}
-                  </span>
-                  <span className="text-primary font-inter font-semibold">
-                    {spec.value}
-                  </span>
-                </div>
-              ))}
-            </div>
-            
-            <div className="mt-8">
-              <a 
-                href="#depoimento" 
-                className="btn-outline-premium inline-flex items-center justify-center"
-              >
-                Saiba Mais
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
