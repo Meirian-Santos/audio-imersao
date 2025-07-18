@@ -7,6 +7,8 @@ Landing page criada para apresentar e promover fones de ouvido premium, com foco
 🔗 **Acesse a versão publicada:**  
 👉 [audioimersao.netlify.app](https://audioimersao.netlify.app/)
 
+![Preview do site](./public/audioimersaoh.jpg)
+![Preview do site](./public/audiomenu.jpg)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
