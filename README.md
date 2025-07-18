@@ -1,41 +1,57 @@
-# MB Audio | Landing Page - Fones de Ouvido Premium
+# 🎧 MB Audio | Landing Page para Fones Premium
 
-Landing page desenvolvida para divulgar e vender fones de ouvido premium, com foco em qualidade sonora e design imersivo.  
-O projeto destaca as funcionalidades do produto, como variedade de cores, áudio de alta fidelidade e conforto prolongado.
+Landing page criada para apresentar e promover fones de ouvido premium, com foco em qualidade sonora imersiva, conforto e design moderno.
+
+> 🔊 Cada detalhe foi pensado para destacar a experiência auditiva — com animações suaves, cores elegantes e navegação intuitiva.
 
 🔗 **Acesse a versão publicada:**  
 👉 [audioimersao.netlify.app](https://audioimersao.netlify.app/)
 
 ---
 
-## 🛡️ Repositório como Portfólio (Código Aberto com Segurança)
+## 🛠️ Tecnologias Utilizadas
 
-Este repositório está **público apenas para fins de portfólio e inspiração**.  
-O código pode ser visualizado, mas **não deve ser copiado ou reutilizado comercialmente sem autorização prévia**.  
-Todo conteúdo, design e estrutura são de autoria de **Meirian Barbosa - Web Designer**.
+Este projeto foi desenvolvido com:
 
-📫 **Contato profissional:** meirian.codes@gmail.com
+- **[React](https://react.dev/)** — Biblioteca JavaScript para interfaces interativas
+- **[TypeScript](https://www.typescriptlang.org/)** — Superset do JavaScript com tipagem estática
+- **[Tailwind CSS](https://tailwindcss.com/)** — Framework utilitário para estilização moderna e responsiva
+- **[Vite](https://vitejs.dev/)** — Empacotador rápido e moderno
+- **[Loveble](https://www.loveble.com.br/)** — IA generativa usada para estruturar o layout e a ideia visual do projeto
 
 ---
 
-## 🚀 Como editar este código
+## 🚀 Funcionalidades
 
-Você pode editar este projeto de três formas principais:
+- 🎨 Destaque para variedade de **cores dos produtos**
+- 🎧 Ênfase em **áudio de alta fidelidade**
+- 💡 Interface com **animações elegantes**
+- 📱 Design 100% **responsivo**, otimizado para mobile e desktop
 
-### 1. Usando sua IDE local
+---
 
-Se preferir trabalhar localmente, siga os passos abaixo:
+## 🧑‍💻 Como editar este código
+
+Você pode personalizar este projeto de três formas principais:
+
+### 1. Usando sua IDE local (recomendado)
 
 ```bash
-# Passo 1: Clone este repositório
+# Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Passo 2: Acesse o diretório do projeto
-cd <YOUR_PROJECT_NAME>
+# Acesse a pasta do projeto
+cd mb-audio-landingpage
 
-# Passo 3: Instale as dependências
+# Instale as dependências
 npm install
 
-# Passo 4: Inicie o servidor de desenvolvimento
+# Rode o servidor de desenvolvimento
 npm run dev
 
+🛡️ Repositório como Portfólio (Código Aberto com Segurança)
+Este repositório está público apenas para fins de portfólio e inspiração.
+O código pode ser visualizado, mas não deve ser copiado ou reutilizado comercialmente sem autorização prévia.
+Todo conteúdo, design e estrutura são de autoria de Meirian Barbosa - Web Designer.
+
+📫 Contato profissional: meirian.codes@gmail.com
