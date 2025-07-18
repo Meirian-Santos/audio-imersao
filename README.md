@@ -43,7 +43,7 @@ git clone <YOUR_GIT_URL>
 # Acesse a pasta do projeto
 cd mb-audio-landingpage
 
-# Instale as dependências
+# Instale as dependênciasg
 npm install
 
 # Rode o servidor de desenvolvimento
@@ -53,5 +53,3 @@ npm run dev
 Este repositório está público apenas para fins de portfólio e inspiração.
 O código pode ser visualizado, mas não deve ser copiado ou reutilizado comercialmente sem autorização prévia.
 Todo conteúdo, design e estrutura são de autoria de Meirian Barbosa - Web Designer.
-
-📫 Contato profissional: meirian.codes@gmail.com
